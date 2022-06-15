@@ -151,8 +151,12 @@
         width: calc(66.666% - 2rem);
     }
 
-    #introduction .card, #benefits .card {
+    #introduction .card {
         width: calc(33.333% - 2rem);
+    }
+
+    #benefits .card {
+        width: calc(50% - 2rem);
     }
 
     #testimonials .card {
@@ -191,6 +195,10 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
+    }
+
+    #benefits .card {
+        width: calc(33.333% - 2rem);
     }
 }
 
