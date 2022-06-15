@@ -34,6 +34,10 @@
     padding: 0 1.5rem;
 }
 
+.m-top-1point5 {
+    margin-top: 1.5rem;
+}
+
 .flex {
     display: flex;
 }
@@ -46,12 +50,24 @@
     justify-content: center;
 }
 
+.justify-end {
+    justify-content: flex-end;
+}
+
 .direction-column {
     flex-direction: column;
 }
 
 .align-center {
     align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .box {
@@ -66,22 +82,43 @@ a {
     text-decoration: none;
 }
 
+i {
+    padding: 0 5px;
+}
+
 .white-txt {
     color: white;
 }
 
+.blue-txt {
+    color: var(--primary-color);
+}
+
 .button {
-    padding: 10px 20px;
+    padding: 7px 15px;
     border-radius: 15px;
+}
+
+.big-btn {
+    padding: 7px 30px;
 }
 
 .button.white-btn:hover {
     background-color: rgba(240, 236, 236, 0.5)
 }
 
+.button.blue-btn:hover {
+    background-color: rgba(34, 51, 202, 0.5)
+}
+
 .white-btn {
     background-color: white;
     color: black;
+}
+
+.blue-btn {
+    background-color: var(--primary-color);
+    color: white;
 }
 
 
@@ -142,6 +179,24 @@ li a {
 #introduction .cards-container {
     margin-left: -1rem;
     margin-right: -1rem;
+}
+
+#img-box {
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#img-box img {
+    height: 100%;
+    padding-top: 1.5rem;
+    object-fit: contain;
+}
+
+.card .box {
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 
@@ -253,6 +308,15 @@ footer .container {
 
     #introduction .card:first-child .box {
         width: 50%;
+    }
+
+    #left-box, #img-box {
+        width: 50%;
+    }
+
+    #img-box img {
+        height: 90%;
+        padding-bottom: 0;
     }
 
     #introduction .card {
