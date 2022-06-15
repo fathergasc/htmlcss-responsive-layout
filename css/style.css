@@ -195,7 +195,7 @@ li a {
 }
 
 .card .box {
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
 }
 
@@ -315,7 +315,7 @@ footer .container {
     }
 
     #img-box img {
-        height: 90%;
+        height: 80%;
         padding-bottom: 0;
     }
 
