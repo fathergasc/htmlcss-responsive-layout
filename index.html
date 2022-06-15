@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Logo</title>
     </head>
     <body class="debug">
@@ -13,8 +14,17 @@
         -->
         <header class="site-header px-1point5">
             <div class="container flex space-between align-center">
-                <div class="box">Logo</div>
-                <div class="box">Navigation</div>
+                <a href="#"><div id="logo" class="box flex justify-center align-center white-txt">Logo</div></a>
+                <a id="bars" href="#"><div class="box flex justify-center align-center"><i class="fa-solid fa-bars white-txt"></i></div></a>
+                <nav id="nav">
+                    <ul class="flex space-between align-center">
+                        <li><a href="#">Planning</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a id="header-button" href="#"><span class="button white-btn">Get Started</span></li></a>        
+                    </ul>
+                </nav>
             </div>
 
 
