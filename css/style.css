@@ -133,6 +133,17 @@
 }
 
 
+/* ABOUT US SECTIONS */
+#about-us {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+#about-us .card {
+    margin-bottom: 2rem;
+}
+
+
 
 /* MEDIA QUERIES */
 
@@ -170,6 +181,20 @@
     #testimonials .card-img {
         flex-shrink: 0;
         margin: 0 3rem 0 0;
+    }
+
+    #about-us .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    #about-us .card:first-child {
+        width: calc(60% - 2rem);
+    }
+
+    #about-us .card {
+        width: calc(40% - 2rem);
     }
 }
 
