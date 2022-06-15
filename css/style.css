@@ -248,6 +248,11 @@ footer .container {
 
     #introduction .card:first-child {
         width: calc(66.666% - 2rem);
+        display: flex;
+    }
+
+    #introduction .card:first-child .box {
+        width: 50%;
     }
 
     #introduction .card {
