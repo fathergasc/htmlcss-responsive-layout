@@ -171,7 +171,8 @@ footer {
 }
 
 footer .container {
-    width: 400px;
+    max-width: 380px;
+    padding: 1rem 1rem;
 }
 
 
