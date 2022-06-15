@@ -52,6 +52,9 @@
     align-items: center;
 }
 
+.card, .col {
+    border-radius: 25px;
+}
 
 
 /* HEADER */
@@ -79,6 +82,35 @@
 }
 
 
+/* PLANNING SECTION */
+
+#planning {
+    background-color: var(--secondary-color);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+#planning .col {
+    margin: 2rem;
+}
+
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+    margin-bottom: 20px;
+}
+
+#testimonials .card {
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+#testimonials .card-img {
+    margin: 1rem;
+}
+
 
 
 /* MEDIA QUERIES */
@@ -101,6 +133,19 @@
     #introduction .card {
         width: calc(33.333% - 2rem);
     }
+
+    #testimonials .card {
+        display: flex;
+    }
+
+    #testimonials .card-txt {
+        flex-grow: 1;
+    }
+
+    #testimonials .card-img {
+        flex-shrink: 0;
+        margin: 0 3rem 0 0;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -115,6 +160,16 @@
 
     #introduction .card:first-child {
         display: flex;
+    }
+
+    #planning .col {
+        width: calc(50% - 4rem);
+    }
+
+    #planning .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 }
 
