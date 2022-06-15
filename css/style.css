@@ -322,16 +322,26 @@ footer .container {
     }
 
     #introduction .card:first-child .box {
-        width: 50%;
+        width: 100%;
+    }
+
+    #big-card {
+        flex-direction: column;
     }
 
     #left-box, #img-box {
-        width: 50%;
+        width: 100%;
     }
 
     #img-box img {
-        height: 80%;
+        height: 100%;
         padding-bottom: 0;
+        margin-top: -20rem;
+    }
+
+    .img-box {
+        display: flex;
+        align-content: flex-start;
     }
 
     #introduction .card {
@@ -390,6 +400,17 @@ footer .container {
 
     #introduction .card:first-child {
         display: flex;
+    }
+
+    #img-box img {
+        height: 85%;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    #big-card {
+        flex-wrap: nowrap;
+        flex-direction: row;
     }
 
     #planning .col {
