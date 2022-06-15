@@ -48,6 +48,14 @@
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
 .align-center {
     align-items: center;
 }
@@ -98,7 +106,8 @@
 /* TESTIMONIALS SECTION */
 
 #testimonials {
-    margin-bottom: 20px;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 #testimonials .card {
@@ -142,6 +151,29 @@
 #about-us .card {
     margin-bottom: 2rem;
 }
+
+
+/* CONTACT-US SECTION */
+
+#contact-us {
+    background-color: var(--secondary-color);
+    padding-top: 5rem;
+    padding-bottom: 3rem; 
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: var(--gray-color);
+}
+
+footer .container {
+    width: 400px;
+}
+
 
 
 
