@@ -46,12 +46,20 @@
     justify-content: space-between;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
 .justify-center {
     justify-content: center;
 }
 
 .justify-end {
     justify-content: flex-end;
+}
+
+.justify-start {
+    justify-content: flex-start;
 }
 
 .direction-column {
@@ -84,6 +92,14 @@ a {
 
 i {
     padding: 0 5px;
+}
+
+.font18 {
+    font-size: 3rem;
+}
+
+.txt-center {
+    text-align: center;
 }
 
 .white-txt {
@@ -198,7 +214,6 @@ li a {
     justify-content: space-around;
     flex-direction: column;
 }
-
 
 /* PLANNING SECTION */
 
