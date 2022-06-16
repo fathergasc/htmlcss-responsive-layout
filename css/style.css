@@ -17,7 +17,9 @@
     --yellow-color: #fbc15f;
 }
 
-
+html {
+    font-family: sans-serif;
+}
 
 /* DEBUG RULES */
 
@@ -203,16 +205,13 @@ li a {
 
 #img-box {
     padding-bottom: 0;
+    display: flex;
+    justify-content: center;
 }
 
 #img-box img {
     height: 100%;
     padding-top: 1.5rem;
-}
-
-.card .box {
-    justify-content: space-around;
-    flex-direction: column;
 }
 
 /* PLANNING SECTION */
@@ -341,7 +340,12 @@ footer .container {
     #img-box img {
         height: 100%;
         padding-bottom: 0;
-        object-fit:contain;
+    }
+
+    #img-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 
     #introduction .card {
@@ -410,6 +414,7 @@ footer .container {
 
    #img-box {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
    }
 
