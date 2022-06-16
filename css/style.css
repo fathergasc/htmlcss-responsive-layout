@@ -120,6 +120,18 @@ i {
     color: #000;
 }
 
+.purple-txt {
+    color: var(--secondary-color);
+}
+
+.weight-400 {
+    font-weight: 400;
+} 
+
+.bold {
+    font-weight: bold;
+}
+
 .button {
     padding: 7px 15px;
     border-radius: 15px;
@@ -283,14 +295,32 @@ li a {
 }
 
 #testimonials .card {
-    padding: 2rem;
+    padding: 1rem;
     background-color: var(--secondary-color);
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #testimonials .card-img {
     margin: 1rem;
 }
+
+.box-img {
+    width: 10rem;
+    height: 10em;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
 
 
 /* BENEFITS SECTION */
@@ -401,10 +431,12 @@ footer .container {
 
     #testimonials .card {
         display: flex;
+        flex-direction: row;
     }
 
     #testimonials .card-txt {
         flex-grow: 1;
+        text-align: left;
     }
 
     #testimonials .card-img {
