@@ -133,6 +133,10 @@ i {
     color: var(--gray-color-light);
 }
 
+.yellow-txt {
+    color: var(--yellow-color);
+}
+
 .weight-400 {
     font-weight: 400;
 } 
@@ -150,7 +154,7 @@ i {
     padding: 7px 30px;
 }
 
-.button.white-btn:hover {
+.button.white-btn:hover, .button.bg-white:hover {
     background-color: rgba(240, 236, 236, 0.5);
 }
 
@@ -179,6 +183,14 @@ i {
 
 .bg-white {
     background-color: white;
+}
+
+.font6 {
+    font-size: 6px;
+}
+
+.font12 {
+    font-size: 12px;
 }
 
 .font14 {
@@ -415,6 +427,10 @@ li a {
     text-align: center;
 }
 
+#contact-us .container {
+    max-width: 500px;
+}
+
 
 /* FOOTER */
 footer {
@@ -426,6 +442,11 @@ footer {
 footer .container {
     max-width: 380px;
     padding: 1rem 1rem;
+}
+
+.footer-ul-purple {
+    text-decoration: underline;
+    color: var(--secondary-color);
 }
 
 
