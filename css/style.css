@@ -32,6 +32,10 @@ html {
     margin: auto;
 }
 
+section {
+    scroll-margin-top: 68px;
+}
+
 .px-1point5 {
     padding: 0 1.5rem;
 }
@@ -112,6 +116,10 @@ i {
     color: var(--primary-color);
 }
 
+.black-txt {
+    color: #000;
+}
+
 .button {
     padding: 7px 15px;
     border-radius: 15px;
@@ -143,6 +151,10 @@ i {
     background-color: white;
 }
 
+.font16 {
+    font-size: 16px;
+}
+
 
 /* HEADER */
 
@@ -150,11 +162,14 @@ i {
     width: 100%;
     height: 70px;
     background-color: var(--primary-color);
-    margin-bottom: 4rem;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
+}
+
+.site-header .container {
+    height: 100%;
 }
 
 .site-header .box {
@@ -210,7 +225,7 @@ li a {
 }
 
 #img-box img {
-    height: 100%;
+    width: 90%;
     padding-top: 1.5rem;
 }
 
@@ -218,7 +233,7 @@ li a {
 
 #planning {
     background-color: var(--secondary-color);
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -226,16 +241,44 @@ li a {
     margin: 2rem;
 }
 
+.col .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .col img {
-    width: 100%;
+    width: 110%;
     object-fit: cover;
 }
 
+#big-plan-img {
+    margin-bottom: 3rem;
+}
+
+#big-arrow-d  {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 12px 11px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+.arrow-div {
+    padding-bottom: 40px;
+}
+
+#big-arrow-d:hover {
+    background-color: var(--secondary-color-light);
+}
 
 /* TESTIMONIALS SECTION */
 
 #testimonials {
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -254,7 +297,7 @@ li a {
 
 #benefits {
     background-color: var(--secondary-color);
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -273,7 +316,7 @@ li a {
 
 /* ABOUT US SECTIONS */
 #about-us {
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -286,7 +329,7 @@ li a {
 
 #contact-us {
     background-color: var(--secondary-color);
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 3rem; 
     text-align: center;
 }
@@ -294,7 +337,7 @@ li a {
 
 /* FOOTER */
 footer {
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
     background-color: var(--gray-color);
 }
@@ -431,6 +474,11 @@ footer .container {
         display: flex;
         justify-content: center;
         align-items: flex-end;
+    }
+
+    #small-plan-img {
+        height: 60%;
+        width: 60%;
     }
 
     #benefits .card {
