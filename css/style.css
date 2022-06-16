@@ -437,6 +437,7 @@ footer {
     padding-top: 2rem;
     padding-bottom: 3rem;
     background-color: var(--gray-color);
+    text-align: center;
 }
 
 footer .container {
